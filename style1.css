@@ -1,0 +1,295 @@
+*{
+    margin: 0 0;
+    padding: 0 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+    padding: 1%;
+}
+a{
+    text-decoration: none;
+    color:#D7DF01;
+}
+a:hover{
+    color: #6645;
+}
+.logo{
+    width: 10%;
+    float: left;
+}
+.clearfloat{
+    clear: both;
+}
+.img-responsive{
+    width: 100%;
+}
+.img-curve{
+    border-radius: 15px;
+}
+.text-right{
+    text-align: right;
+}
+.text-center{
+    text-align: center;
+}
+.text-white{
+    color: white;
+}
+.float-container{
+    position: relative;
+}
+.float-text{
+    position: absolute;
+    bottom: 50px;
+    left: 40%;
+}
+.btn{
+    padding: 1%;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+}
+.btn-search{
+    background-color: coral;
+    color: white;
+    cursor: pointer;
+}
+.btn-search:hover{
+    background-color: #FACC2E;
+    color: white;
+
+}
+h2{
+    color: teal;
+    font-size: 2rem;
+    margin-bottom: 2%;
+}
+h3{
+    font-size: 1.5rem;
+}
+
+
+.menu{
+    line-height: 50px;
+}
+
+.menu ul{
+    list-style: none;
+}
+
+.menu ul li{
+    display :inline;
+    padding: 1%;
+}
+
+
+
+.search-food {
+    background-image: url(../img/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 7% 0;
+}
+
+.search-food input[type= "search"]{
+    width: 50%;
+    padding: 1%;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+}
+
+
+
+.categories{
+    padding: 5% 0;
+}
+.box-3{
+    
+    width: 28%;
+    float: left;
+    margin: 2% ;
+}
+
+
+
+
+.food-menu{
+    background-color: gainsboro;
+    padding: 4%;
+}
+.food-menu-box{
+    width: 43%;
+    margin: 1%;
+    padding: 2%;
+    float: left;
+    background-color: white;
+    border-radius: 15px;
+}
+.food-menu-img{
+    width: 20%;
+    float: left;
+}
+.food-menu-desc{
+    width: 70%;
+    float: left;
+    margin-left: 8%;
+}
+.food-price{
+    font-size: 1.2rem;
+    margin: 2% 0;
+}
+.food-detali{
+    font-size: 1rem;
+    color: #833;
+}
+
+
+
+
+.social ul{
+    list-style-type: none;
+}
+.social ul li{
+    display: inline;
+    padding: 1%;
+}
+
+
+.order-food {
+    background-image: url(../img/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 5% 0;
+}
+
+.select-food-form{
+    width: 35%;
+    padding: 3% 0;
+    padding-left: 32% ;
+    border-color: white;
+}
+.food-menu-desc-box{
+    width: 100%;
+    padding: 5%;
+    margin-bottom: 5%;
+}
+
+.food-menu-img{
+    width: 20%;
+}
+.food-menu-desc{
+    text-align: left;
+    font-size: 1.4rem;
+}
+
+.food-menu-desc input[type= "number"]{
+    width: 80%;
+    border-radius: 5px;
+    border-color: white;
+    margin-bottom: 10%;
+}
+
+.delivery-food-form{
+    width: 35%;
+    padding: 1% 0;
+    padding-left: 32% ;
+    font-weight: bolder;
+    border-color: white;
+}
+
+.delivery-desc{
+    text-align: left;
+    padding: 5%;
+}
+
+.delivery-desc input[type= "text"]{
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 5%;
+    border-color: white;
+}
+
+.delivery-desc input[name= "text-add"]{
+    width: 100%;
+    padding-bottom: 150px;
+    border-radius: 5px;
+    margin-bottom: 5%;
+    border-color: white;
+}
+
+
+
+@media only screen and (max-width:786px){
+    .logo{
+        width: 80%;
+        float:none;
+        margin: 1% auto;
+    }
+
+    .menu ul{
+        text-align: center;
+    }
+
+    .search-food input[type= "search"]{
+        width: 90%;
+        padding: 2%;
+        margin-bottom: 3%;
+    }
+
+    .btn{
+        width: 90%;
+        padding: 2%;
+    }
+
+    .categories{
+        padding: 20%;
+    }
+
+    .search-food{
+        padding: 10%;
+    }
+
+    h2{
+        margin-bottom: 10%;
+    }
+
+    .box-3{
+        width: 90%;
+        margin: 4% auto;
+    }
+
+    .food-menu{
+        padding: 20% 0;
+    }
+
+    .food-menu-box{
+        width: 90%;
+        padding: 5%;
+        margin-bottom: 5%;
+    }
+
+    .social{
+        padding: 5%;
+    }
+    .order-food{
+        padding: 10% 0;
+    }
+    .select-food-form {
+        width: 90%;
+        padding: 3% 0;
+        padding-left: 7%;
+    }
+    .delivery-food-form {
+        width: 90%;
+        padding: 1% 0;
+        padding-left: 7%;
+        font-weight: bolder;
+    }
+
+}
+
